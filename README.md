@@ -1,4 +1,4 @@
-# Laravel 10 透過表達式取代任何原生查詢
+# Laravel 11 透過表達式取代任何原生查詢
 
 引入 tpetry 的 laravel-query-expressions 套件來擴增透過表達式取代任何原生查詢，可以使用表達式來選擇數據、更好地過濾或排序結果。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/jwlm8Ts.png)
+![](https://i.imgur.com/BTH4zmI.png)
 > 原生陳述句會被作為字串注入到查詢，所以你應該要非常小心，別造成了 SQL 注入漏洞

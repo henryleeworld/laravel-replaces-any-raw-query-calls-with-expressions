@@ -17,12 +17,14 @@ class PostFactory extends Factory
 
     /**
      * Define the model's default state.
+     *
+     * @return array<string, mixed>
      */
     public function definition(): array
     {
         return [
-            'title' => $this->faker->sentence(),
-            'content' => $this->faker->paragraph(),
+            'title' => fake()->sentence(),
+            'content' => fake()->paragraph(),
             'posted_at' => now(),
             'author_id' => User::factory()
         ];
